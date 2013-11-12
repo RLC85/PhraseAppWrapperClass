@@ -52,3 +52,5 @@ Below is an example of how to download an xliff file using this class.
     }
 
     ?>
+
+Once you call the connect() function you can do as many subsequent query() functions as you like, for the class will check the status of your login before submitting the query and attempt to login if you are not currently connected.
